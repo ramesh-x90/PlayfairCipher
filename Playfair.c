@@ -39,6 +39,7 @@ int main(int argc , char *argv[])
 		printf("            -d <\"cipherText\">  To decrypt\n");
 		printf("            -s keep spaces in plain text\n");
 		printf("            -k <key>             key for encryption and decryption");
+		printf("            -f <filler>          character for filler");
 		return 0;
 	}
 
@@ -100,8 +101,9 @@ int main(int argc , char *argv[])
 			printf("<.\\Playfair.exe> [options] <\"Text\">\n");
 			printf("[options] : -e <\"plainText\">   To encrypt\n");
 			printf("            -d <\"cipherText\">  To decrypt\n");
-			printf("            -s remove spaces in plain text\n");
+			printf("            -s keep spaces in plain text\n");
 			printf("            -k <key>             key for encryption and decryption");
+			printf("            -f <filler>          character for filler");
 			return -1;
 		}
 		
